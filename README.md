@@ -40,10 +40,7 @@ The number of vertices I use directly influences the size of the model, because 
 
  I applied the hiphop and capoeira animation to the mannequin and the rumba and jumping jacks animations to Megan. With the t-shirt on I baked the animation which results in an animation of the t-shirt without needing the characters. Then I predefined 24 rotations and  took one image(192 x 108) for  each rotation for each frame. The images taken are more or less always from the front, never from the back. Additionally to the images I saved the 2704 associated coordinates of the mesh for each frame and each rotation in a list of tuples as a text file.
 
-<video controls>
-  <source src="./media/Megan_anim.mp4" type="video/mp4">
-</video>
-
+![](./media/megan_anim.gif)
 
 Megans rumba animation. during the first 45 frames the T-shirt gets fitted to the character, then the animation starts. Only the frames after 45 are used for training.
 
