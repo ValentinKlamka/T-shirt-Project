@@ -1,8 +1,5 @@
 
 # T-Shirt-Mesh Generation from Image Data
-```diff
-- This is work in progress. I will update this Readme as soon as I have more results.
-```
 ## Introduction
 ### Motivation
  When a trained artist sees a picture of an object he knows, it is relatively easy for him/her to imagine how that object would look like in 3D space and he/she could paint it from multiple different angles and inpaint details that are otherwise not given in the picture. The reason is that the artist has a model of that object in his mind already. Of course one can also be tricked by expectation. For example imagine you see a person and confuse him/her with another one you know, because the one you know has usually the same hairstyle, size, clothing etc. Only when you turn around him/her and see his/her face, you realize your mistake.  But anyway, the point is by having an expectation you are usually able to imagine an object from another perspective. My Idea has been to design a neural network model, that knows how a T-shirt looks like and given an images it can apply the correct folds on the side which it sees and gues the the folds on the side it doesn't see. Then it gives back 3D coordinates which you can apply on a t-shirt mesh in Blender.
